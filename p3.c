@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 int main(){
-	short i,j;
-	i = 1;
-	j = 2;
-	i++;
-	j += i;
+	int a;
+	int b = 2;
+	int c = 3;
+	int d = 4;
+	a = b+c*d;
+	a = (b+c)*d;
+	d = a;
 	return 0;
 }	
 
