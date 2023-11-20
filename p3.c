@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main(){
-char a[3];
-a[0] = 1;
-a[1] = 2;
-a[2] = 3;
-return 0;
+	int c[4];
+	int a[4] = {1,2,3,4};
+	int b[4] = {5,6,7,8};
+	for (int i=0;i<3;i++) {
+		c[i]=a[i] * b[i];
+	}
 }
+
